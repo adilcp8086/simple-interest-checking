@@ -41,7 +41,7 @@ function App() {
     }
     else if (name === 'interestField'){
       setInterest(value)
-      let res = (!!value.match(/^[0-9]+5/))
+      let res = (!!value.match(/^[0-9]+$/))
       if (res === true){
         setisInterest(true)
 
